@@ -1,0 +1,94 @@
+/* nav styles */
+nav{
+  background-color: #9E8975;
+  position:fixed;
+top: 0;
+width: 100%;
+}
+nav .menu {
+  padding-right: 15px;
+  color: beige;
+  font-size: 40px;
+  display: inline;
+}
+body{
+    background-image: url("img/v8_16.png")no-repeat right top;
+    background-color: #f6f3ee;
+    font-family: 'Poppins', sans-serif;
+}
+/* header styles */
+header{
+    text-align: center;
+    display: inline;
+    font-family: 'Sunflower', sans-serif;
+    font-size: 20px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+  top: 0;
+  width: 100%;
+  font-size: 30px;
+  }
+  
+  li {
+    display: inline;
+    float: right;
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+  }
+  
+  li a:hover {
+    background-color: #473c38;
+  top: 0;
+  width: 69%;
+  }
+h1{
+  text-shadow: 2px 2px #9E8975 ;
+  font-size: 50px;
+
+}
+
+/* hero styles */
+.hero{
+    height: 500px; width: 100%;
+    align-self: center;
+background: rgb(252, 252, 252) url(img/americano-bar-brew-cafe.jpg);
+}
+.hero2{
+  height: 500px; width: 100%;
+background: rgb(252, 252, 252) url(img/beens.jpg);
+}
+article{
+  font-size: 32px;
+}
+.img-container {
+  float: right;
+  width: 33.33%;
+  padding: 1px;
+}
+.clearfix::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+.social-link{
+  padding: 2px;
+  float: right;
+}
+ .main-footer {
+  height: 90px;
+  background-color:#473c38;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #9E8975;
+  clear: both;
+  float: right;
+  width: 100%;
+ }
